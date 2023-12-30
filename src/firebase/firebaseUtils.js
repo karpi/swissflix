@@ -6,13 +6,13 @@ const { REACT_APP_FIREBASE_API_KEY, REACT_APP_FIREBASE_AUTH_DOMAIN, REACT_APP_FI
 
 // Firebase Configuration Object
 const firebaseConfig = {
-    apiKey: REACT_APP_FIREBASE_API_KEY,
-    authDomain: REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: REACT_APP_FIREBASE_APP_ID,
-    measurementId: REACT_APP_FIREBASE_MEASUREMEMT_ID
+  apiKey: "AIzaSyAB_EBanqvZ11hhNxAEWZAhftjc_edYais",
+  authDomain: "swissflix-eb29c.firebaseapp.com",
+  projectId: "swissflix-eb29c",
+  storageBucket: "swissflix-eb29c.appspot.com",
+  messagingSenderId: "157253443765",
+  appId: "1:157253443765:web:c1df4cc21a472ab7fbdefc",
+  measurementId: "G-RMZB7J333B"
 }
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
