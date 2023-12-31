@@ -53,7 +53,6 @@ export const getCurrentUser = () => {
 // Firebase web app init
 firebase.initializeApp(firebaseConfig)
 const app = initializeApp(firebaseConfig)
-const analytics = getAnalytics(app)
 
 export const auth = firebase.auth()
 export const firestore = firebase.firestore()
